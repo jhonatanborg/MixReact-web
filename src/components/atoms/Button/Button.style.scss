@@ -1,0 +1,26 @@
+button {
+  padding: 15px 0px;
+  font-family: "Lato", sans-serif;
+  border: 0;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  width: 100%;
+  transition: all 200ms linear;
+  text-align: center;
+  align-self: center;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+  .icon {
+    margin: 0px 10px;
+  }
+}
