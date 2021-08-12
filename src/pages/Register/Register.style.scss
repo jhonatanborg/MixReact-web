@@ -1,0 +1,71 @@
+.page-register {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  a {
+    text-decoration: none;
+    color: #1a202c;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .form-register {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    .form-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      width: 60%;
+      margin: 20px 0;
+      .heading {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        margin-top: 7px;
+        /* identical to box height */
+        color: #1a202c;
+      }
+      .subtitle {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1a202c;
+      }
+    }
+    .form-footer {
+      font-family: "Lato", sans-serif;
+
+      width: 60%;
+      .create-account {
+        text-align: center;
+        margin-top: 50px;
+      }
+      a:hover {
+        color: #2968dbfb;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+      }
+    }
+  }
+}
