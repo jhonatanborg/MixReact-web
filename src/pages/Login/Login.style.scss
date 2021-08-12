@@ -1,0 +1,113 @@
+.page-login {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  a {
+    text-decoration: none;
+    color: #1a202c;
+    font-style: normal;
+    font-weight: normal;
+  }
+  .image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .form-login {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    .form-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+      width: 60%;
+      margin: 20px 0;
+      .heading {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        margin-top: 7px;
+        /* identical to box height */
+        color: #1a202c;
+      }
+      .subtitle {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1a202c;
+      }
+    }
+    .section-login {
+      width: 60%;
+      margin: 15px 0px;
+      display: flex;
+      justify-content: space-between;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1a202c;
+    }
+    .form-footer {
+      font-family: "Lato", sans-serif;
+
+      width: 60%;
+      .create-account {
+        text-align: center;
+        margin-top: 50px;
+      }
+      a:hover {
+        color: #2968dbfb;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+      }
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      width: 60%;
+      margin: 5px 0;
+      .label {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        color: #888888;
+      }
+      input {
+        padding: 8px 15px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #e8e8e8;
+        margin: 5px 0px;
+        outline: none;
+        font-family: "Lato", sans-serif;
+        font-size: 0.9rem;
+        color: #888888;
+        font-family: Lato;
+        font-weight: bold;
+      }
+      input:focus {
+        border: 0.01px solid #888888;
+      }
+    }
+  }
+}
