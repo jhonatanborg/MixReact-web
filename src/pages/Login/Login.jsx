@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./Login.style.scss";
 import loginIlustration from "../../assets/image_login.webp";

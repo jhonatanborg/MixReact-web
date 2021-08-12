@@ -7,7 +7,7 @@ export default function Register() {
     <div className="page-register">
       <div className="image">
         <img
-          src="https://cdn.dribbble.com/users/982190/screenshots/15316226/media/69df02982f5cd8fd3cb87a0aed981b48.png"
+          src="https://cdn.dribbble.com/users/6223422/screenshots/15664759/media/0e205195df078ffbf54a3caf0526c782.jpg"
           alt=""
         />
       </div>
@@ -17,7 +17,7 @@ export default function Register() {
             <span>Cadastre-se</span>
           </div>
           <div className="heading">
-            <span>Crie uma conta gratis agora</span>
+            <span>Crie uma conta grátis agora</span>
           </div>
         </div>
         <Input type="text" label="Nome Completo" placeholder="Meu nome" />
