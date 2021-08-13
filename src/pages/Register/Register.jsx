@@ -17,13 +17,15 @@ export default function Register() {
             <span>Cadastre-se</span>
           </div>
           <div className="heading">
-            <span>Crie uma conta grátis agora</span>
+            <span>Crie uma conta agora</span>
           </div>
         </div>
-        <Input type="text" label="Nome Completo" placeholder="Meu nome" />
-        <Input type="email" label="Email" placeholder="Ex:example@mail.com" />
-        <Input type="tel" label="Telefone" placeholder="(DDD) X XXXX-XXXX" />
-        <Input type="password" label="Senha" placeholder="*********" />
+        <div className="form">
+          <Input type="text" label="Nome Completo" placeholder="Meu nome" />
+          <Input type="email" label="Email" placeholder="Ex:example@mail.com" />
+          <Input type="tel" label="Telefone" placeholder="(DDD) X XXXX-XXXX" />
+          <Input type="password" label="Senha" placeholder="*********" />
+        </div>
         <div className="form-footer">
           <Button bgColor="bg-green" text="Cadastrar"></Button>
         </div>

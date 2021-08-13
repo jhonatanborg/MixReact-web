@@ -8,6 +8,7 @@
     font-style: normal;
     font-weight: normal;
   }
+
   .image {
     width: 50%;
     height: 100%;
@@ -29,11 +30,11 @@
     align-items: center;
     background-color: whitesmoke;
     .form-header {
+      width: 60%;
       display: flex;
       flex-direction: column;
-      justify-content: start;
-      align-items: start;
-      width: 60%;
+      justify-content: flex-start;
+      align-items: flex-start;
       margin: 20px 0;
       .heading {
         font-family: Merriweather;
@@ -66,9 +67,11 @@
       line-height: 20px;
       color: #1a202c;
     }
+    .form {
+      width: 60%;
+    }
     .form-footer {
       font-family: "Lato", sans-serif;
-
       width: 60%;
       .create-account {
         text-align: center;
@@ -80,33 +83,28 @@
         font-family: "Lato", sans-serif;
       }
     }
-    .form-group {
-      display: flex;
-      flex-direction: column;
-      width: 60%;
-      margin: 5px 0;
-      .label {
-        font-family: Lato;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        color: #888888;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .page-login {
+    width: 100%;
+    .image {
+      display: none;
+    }
+    .form-login {
+      width: 100%;
+      .form-header {
+        width: 90%;
       }
-      input {
-        padding: 8px 15px;
-        height: 30px;
-        border-radius: 5px;
-        border: 1px solid #e8e8e8;
-        margin: 5px 0px;
-        outline: none;
+      .section-login {
+        width: 90%;
+      }
+      .form {
+        width: 90%;
+      }
+      .form-footer {
         font-family: "Lato", sans-serif;
-        font-size: 0.9rem;
-        color: #888888;
-        font-family: Lato;
-        font-weight: bold;
-      }
-      input:focus {
-        border: 0.01px solid #888888;
+        width: 90%;
       }
     }
   }

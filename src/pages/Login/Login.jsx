@@ -22,8 +22,15 @@ export default function Login() {
             <span>Faça login na sua conta</span>
           </div>
         </div>
-        <Input type="email" label="E-mail" placeholder="Ex: example@mail.com" />
-        <Input type="password" label="Senha" placeholder="*****" />
+        <div className="form">
+          <Input
+            type="email"
+            label="E-mail"
+            placeholder="Ex: example@mail.com"
+          />
+          <Input type="password" label="Senha" placeholder="*****" />
+        </div>
+
         <div className="section-login">
           <div>
             <input type="checkbox" name="" id="" />
