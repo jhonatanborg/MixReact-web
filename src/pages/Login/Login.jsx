@@ -37,7 +37,7 @@ export default function Login() {
             <span>Lembrar senha</span>
           </div>
           <div className="forgot-pass">
-            <a href="http://">Esqueci minha senha?</a>
+            <Link to="/esqueci-minha-senha">Esqueci minha senha?</Link>
           </div>
         </div>
         <div className="form-footer">
@@ -49,7 +49,7 @@ export default function Login() {
           />
           <div className="create-account">
             Ainda não tem uma conta?{" "}
-            <Link to="/signup">Criar conta grátis</Link>
+            <Link to="/cadastro">Criar conta grátis</Link>
           </div>
         </div>
       </div>

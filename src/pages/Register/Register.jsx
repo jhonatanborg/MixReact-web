@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import Button from "../../components/atoms/Button/Button";
 import Input from "../../components/atoms/Input/Input";
 import "./Register.style.scss";
@@ -28,6 +30,9 @@ export default function Register() {
         </div>
         <div className="form-footer">
           <Button bgColor="bg-green" text="Cadastrar"></Button>
+          <div className="create-account">
+            Já possui uma conta? <Link to="/">Faça o login agora</Link>
+          </div>
         </div>
       </div>
     </div>
