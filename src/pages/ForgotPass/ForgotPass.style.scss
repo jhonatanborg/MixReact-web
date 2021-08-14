@@ -1,0 +1,111 @@
+.page-forgot {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  a {
+    text-decoration: none;
+    color: #1a202c;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  .image {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .form-forgot {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    .form-header {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin: 20px 0;
+      .heading {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 33px;
+        /* identical to box height */
+        color: #1a202c;
+      }
+      .subtitle {
+        font-family: Merriweather;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #1a202c;
+        margin-top: 7px;
+      }
+    }
+    .section-login {
+      width: 60%;
+      margin: 15px 0px;
+      display: flex;
+      justify-content: space-between;
+      font-family: Lato;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 20px;
+      color: #1a202c;
+    }
+    .form {
+      width: 60%;
+    }
+    .form-footer {
+      font-family: "Lato", sans-serif;
+      width: 60%;
+      .create-account {
+        text-align: center;
+        margin-top: 50px;
+      }
+      a:hover {
+        color: #2968dbfb;
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+      }
+    }
+  }
+}
+@media (min-width: 0px) and (max-width: 480px) {
+  .page-forgot {
+    width: 100%;
+    .image {
+      display: none;
+    }
+    .form-forgot {
+      width: 100%;
+      .form-header {
+        width: 90%;
+      }
+      .section-forgot {
+        width: 90%;
+      }
+      .form {
+        width: 90%;
+      }
+      .form-footer {
+        font-family: "Lato", sans-serif;
+        width: 90%;
+      }
+    }
+  }
+}
