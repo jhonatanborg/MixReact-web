@@ -1,9 +1,9 @@
 import React from "react";
 import "./Button.style.scss";
 import Facebook from "../../../assets/facebook.svg";
-export default function Button({ text, bgColor, icon }) {
+export default function Button({ text, bgColor, icon, onClick }) {
   return (
-    <button className={`${bgColor}`}>
+    <button onClick={onClick} className={`${bgColor}`}>
       {icon !== "facebook" ? (
         <span className="material-icons">{icon}</span>
       ) : (
